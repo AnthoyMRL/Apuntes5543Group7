@@ -5,11 +5,24 @@
         public App()
         {
             InitializeComponent();
+
+            try
+            {
+                MainPage = new AppShell(); //
+            }
+            catch (Exception ex)
+            {
+                MainPage = new ContentPage
+                {
+                    Content = new Label
+                    {
+                        Text = $"Error al cargar: {ex.Message}",
+                        TextColor = Colors.Red
+                    }
+                };
+            }
+
         }
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
     }
 }
