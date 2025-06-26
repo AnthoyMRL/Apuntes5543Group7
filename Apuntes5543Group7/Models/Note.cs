@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ActualizacionappApuntes.Models
+namespace Apuntes5543Group7.Models
 {
     public class Note : INotifyPropertyChanged
     {

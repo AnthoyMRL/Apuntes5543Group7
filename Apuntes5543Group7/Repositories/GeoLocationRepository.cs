@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ActualizacionappApuntes.Repositories
+namespace Apuntes5543Group7.Repositories
 {
     internal class GeoLocationRepository
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using ActualizacionappApuntes.Models;
+using Apuntes5543Group7.Models;
 
-namespace ActualizacionappApuntes.Repositories
+namespace Apuntes5543Group7.Repositories
 {
     public static class NotesRepository
     {

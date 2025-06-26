@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ActualizacionappApuntes.Models
+namespace Apuntes5543Group7.Models
 {
     internal class WeatherModels
     {

@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ActualizacionappApuntes.Repositories;
-using static ActualizacionappApuntes.Models.WeatherModels;
+using static Apuntes5543Group7.Models.WeatherModels;
 using Newtonsoft.Json;
 
-namespace ActualizaciónappApuntes.Repositories
+namespace Apuntes5543Group7.Repositories
 {
     internal class WeatherRepository
     {
