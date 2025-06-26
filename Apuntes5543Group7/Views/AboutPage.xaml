@@ -6,8 +6,8 @@
              Title="Grupo 7">
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-            <GradientStop Color="#E0F7FA" Offset="0.0" />
-            <GradientStop Color="#F1F8E9" Offset="1.0" />
+            <GradientStop Color="Orange" Offset="0.0" />
+            <GradientStop Color="SkyBlue" Offset="1.0" />
         </LinearGradientBrush>
     </ContentPage.Background>
 
@@ -21,16 +21,16 @@
                        TextColor="#37474F"
                        HorizontalTextAlignment="Center" />
 
-                <Label Text="Conoce a los desarrolladores detrás de esta aplicación"
+                <Label Text="Conoce al equipo encargado de la programacion"
                        FontSize="16"
-                       TextColor="#607D8B"
+                       TextColor="Blue"
                        HorizontalTextAlignment="Center"
                        Margin="20,0" />
             </StackLayout>
 
             <CollectionView ItemsSource="{Binding TeamMembers}"
                             SelectionMode="None"
-                            BackgroundColor="Transparent">
+                            BackgroundColor="Pink">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical" Span="1"/>
                 </CollectionView.ItemsLayout>
